@@ -1,0 +1,8 @@
+ile = int(input("Odliczanie "))
+if ile > 0:
+    while ile > -1:
+        print(ile)
+        ile=ile-1
+    print("Start!")
+else:
+    print("ujemna")
